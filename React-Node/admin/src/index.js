@@ -7,6 +7,7 @@ import Widgets from './Pages/Widgets';
 import Tables from './Pages/Tables';
 import Forms from './Pages/Forms';
 import Charts from './Pages/Charts';
+import Slideshow from './Pages/Slideshow';
 
 
 
@@ -20,7 +21,7 @@ root.render(
                 <Route path='/table' element={<Tables/>}/>
                 <Route path='/form' element={<Forms/>}/>
                 <Route path='/chart' element={<Charts/>}/>
-                
+                <Route path='/slideshow' element={<Slideshow/>}/>
   </Routes>
 </Router>
 );
