@@ -20,7 +20,7 @@ const Sidebar = () => {
                 </div>
                 <div class="navbar-nav w-100">
                     <a href="/" class="nav-item nav-link"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
-                    <a href="/slideshow" class="nav-item nav-link"><i class="fa fa-chart-bar me-2"></i>Slideshow</a>
+                    <a href="/slideshow" class="nav-item nav-link"><i class="fa fa-book me-2"></i>Slideshow</a>
                     <a href="/widget" class="nav-item nav-link"><i class="fa fa-th me-2"></i>Widgets</a>
                     <a href="/table" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Tables</a>
                     <a href="/form" class="nav-item nav-link"><i class="fa fa-keyboard me-2"></i>Forms</a>
