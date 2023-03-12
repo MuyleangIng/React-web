@@ -30,19 +30,51 @@ const Slideshow = () => {
                         <th>Action</th>
                     </tr>
                     <tr>
-                        <td>1</td>
+                        <td>Aaa</td>
                         <td><img src="img/testimonial-1.jpg" style={{width: "70px"}}/></td>
-                        <td>sgsdsgv</td>
-                        <td>sgshshdshsg</td>
-                        <td>sghjklikjfhjdghsfgadf</td>
-                        <td>shdjfkghjfghfg</td>
+                        <td>A11111</td>
+                        <td>a1a1a1a1</td>
+                        <td>1AA1a1a1a1a1a1aa11a1aAAAAA</td>
+                        <td>#</td>
                         <td>
-                        <a href="index.php?p=slideshow&action=<?=$row['enable']?>&ssid=<?=$row['ssid']?>"><i class="fa fa-eye "></i></a>
-                            <a href="/"></a>
-                            <a href="/?p=slideshow&action=2&ssorder=<?=$row['ssorder']?>&ssid=<?=$row['ssid']?>"><i class="fa fa-arrow-circle-up green_color"></i></a>
-                            <a href="/?p=slideshow&action=3&ssorder=<?=$row['ssorder']?>&ssid=<?=$row['ssid']?>"><i class="fa fa-arrow-circle-down green_color"></i></a>
-                            <a href="#"><i class="fa fa-edit blue_color"></i></a>
-                            <a href="#"><i class="fa fa-trash red_color"></i></a>
+                            <Link to="/"><i class="fa fa-eye "></i></Link>
+                            <Link to="/"><i class="fa fa-arrow-circle-up green_color "></i></Link>
+                            <Link to="/"><i class="fa fa-arrow-circle-down green_color "></i></Link>
+                            <Link to="/"><i class="fa fa-edit blue_color "></i></Link>
+                            <Link to="/"><i class="fa fa-trash red_color "></i></Link>
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Czfmlkdm</td>
+                        <td><img src="img/testimonial-2.jpg" style={{width: "70px"}}/></td>
+                        <td>ao;ljkfsfsad;aojj</td>
+                        <td>uhgskfl;sjg;ld</td>
+                        <td>klsghst98rioeitrepoifke0ut</td>
+                        <td>#</td>
+                        <td>
+                            <Link to="/"><i class="fa fa-eye "></i></Link>
+                            <Link to="/"><i class="fa fa-arrow-circle-up green_color "></i></Link>
+                            <Link to="/"><i class="fa fa-arrow-circle-down green_color "></i></Link>
+                            <Link to="/"><i class="fa fa-edit blue_color "></i></Link>
+                            <Link to="/"><i class="fa fa-trash red_color "></i></Link>
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Bbbb</td>
+                        <td><img src="img/testimonial-1.jpg" style={{width: "70px"}}/></td>
+                        <td>222BBBBB</td>
+                        <td>bbabababb2222</td>
+                        <td>BBBdjd@@@@@2222</td>
+                        <td>#</td>
+                        <td>
+                            <Link to="/"><i class="fa fa-eye "></i></Link>
+                            <Link to="/"><i class="fa fa-arrow-circle-up green_color "></i></Link>
+                            <Link to="/"><i class="fa fa-arrow-circle-down green_color "></i></Link>
+                            <Link to="/"><i class="fa fa-edit blue_color "></i></Link>
+                            <Link to="/"><i class="fa fa-trash red_color "></i></Link>
+                            
                         </td>
                     </tr>
                 </table>
