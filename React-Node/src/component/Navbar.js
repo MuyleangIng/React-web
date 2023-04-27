@@ -1,5 +1,5 @@
 import React from "react";
-
+import {Link} from 'react-router-dom';
 const Navbar = () => {
 
     return(
@@ -42,12 +42,12 @@ const Navbar = () => {
                     </button>
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto py-0">
-                            <a href="/" class="nav-item nav-link active">Home</a>
-                            <a href="/shop" class="nav-item nav-link">Shop</a>
-                            <a href="/page" class="nav-item nav-link">Page</a>
-                            <a href="/cart" class="nav-item nav-link">Cart</a>
-                            <a href="/contact" class="nav-item nav-link">Contact</a>
-                            <a href="/about" class="nav-item nav-link">About Us</a>
+                            <a class="nav-item nav-link active"><Link to="/">Home</Link></a>
+                            <a class="nav-item nav-link"><Link to="/shop">Shop</Link></a>
+                            <a class="nav-item nav-link"><Link to="/page">Page</Link></a>
+                            <a class="nav-item nav-link"><Link to="/cart">Cart</Link></a>
+                            <a class="nav-item nav-link"><Link to="/contact">Contact</Link></a>
+                            <a class="nav-item nav-link"><Link to="/about">About Us</Link></a>
                         </div>
                         <div class="navbar-nav ml-auto py-0">
                             <a href="" class="nav-item nav-link">Login</a>
